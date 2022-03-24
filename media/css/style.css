@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(201, 188, 188);
+}
+
+
+header{
+    margin: 0;
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(226, 57, 57);
+    background-image: url(../img/fon.gif);
+    background-size: contain;
+    
+    
+}
+
+.upper_part{
+   
+}
+
+
+
+.contacts{
+    
+    width: 400px;
+   
+    border: 1px green solid;
+    float: right;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+H1{
+    margin: 0;
+    color: white;
+    
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    background: red;
+    border-right: 1px white dotted;
+}
+.menu a:hover {
+    color: red;
+    background: white;
+}
+
+
+.footer {
+    text-align: center;
+    background: rgb(45, 90, 150);
+    margin-top: 30px;
+    padding: 30px;
+}
