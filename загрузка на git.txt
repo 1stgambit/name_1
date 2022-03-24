@@ -1,0 +1,4 @@
+git add *
+git commit -m "index"
+git push (закачать на git)
+git pull (скачать с git)
